@@ -31,12 +31,12 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift();
-  return array
+  return array;
 }
 
 function removeElementFromBeginningOfArray(array) {
-  var newArray = array.slice();
-  return newArray
+  array.slice();
+  return array;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
